@@ -14,7 +14,7 @@ class TrieNode{
         }
         isTerminal=false;
     }
-}
+};
 
 class Trie {
     public:
@@ -76,7 +76,7 @@ class Trie {
     void removeWord(string word){
         removeUtil(root, word);
     }
-}
+};
 
 int main(){
 
